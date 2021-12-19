@@ -6,12 +6,9 @@
 
         <title>DC COMICS | @yield('page-title','pasta')</title>
 
-        <!-- Links -->
+         <!-- Styles -->
         <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;600&display=swap" rel="stylesheet">
-
-        <!-- Styles -->
-        <style>
-        </style>
+        <link href="{{asset('css/app.css')}}" rel="stylesheet">
         <!-- Custom CSS -->
         @yield('custom-css')
     </head>
