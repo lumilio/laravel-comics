@@ -11250,9 +11250,22 @@ textarea.form-control-lg {
 }
 
 body {
-  background-color: wheat;
+  font-family: Trebuchet MS, sans-serif;
 }
 
+/* -------------------- HEADER -------------------- */
+#app_header .layout-box {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-image: url("../img/footer-bg.jpg");
+  background-position-y: top;
+  background-position-x: center;
+  background-size: cover;
+  /* background-repeat: no-repeat */
+}
+
+/* -------------------- MAIN -------------------- */
 main .card-box {
   padding: 0.6rem;
   text-decoration: none;
@@ -11302,6 +11315,7 @@ main #banner-list {
   color: white;
   margin: 0;
   padding: 0;
+  z-index: 1;
 }
 
 main #banner-list img {
@@ -11316,4 +11330,124 @@ main #banner-list li {
 
 main #banner-list li:hover {
   cursor: pointer;
+}
+
+main .special {
+  position: absolute;
+  background-color: #0282f9;
+  padding: 8px 35px;
+  color: white;
+  top: -67px;
+  left: 80px;
+  font: large;
+  font-weight: bold;
+}
+
+main .container-special {
+  position: relative;
+}
+
+main .jumbo {
+  background-image: url("../img/jumbotron.jpg");
+  height: 400px;
+  background-position-y: top;
+  background-position-x: center;
+  /* background-repeat: no-repeat */
+}
+
+/* -------------------- FOOTER -------------------- */
+#app_footer .layout-box {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-image: url("../img/footer-bg.jpg");
+  background-position-y: top;
+  background-position-x: center;
+  background-size: cover;
+  /* background-repeat: no-repeat */
+}
+
+#app_footer .centered-box {
+  width: 1140px;
+  display: flex;
+  position: relative;
+  color: white;
+}
+
+#app_footer .mini-list {
+  margin: 30px 70px 62px 0px;
+}
+
+#app_footer .centered-box h3 {
+  margin-bottom: 0;
+}
+
+#app_footer .centered-box ul {
+  padding: 0;
+  margin-top: 10px;
+  list-style: none;
+}
+
+#app_footer .centered-box li a {
+  color: #636b6b;
+  text-decoration: none;
+  font-size: smaller;
+}
+
+#app_footer .centered-box li a:hover {
+  color: #abb5b5;
+  text-decoration: underline;
+}
+
+#app_footer .centered-box img {
+  position: absolute;
+  right: 0;
+  top: -95px;
+}
+
+#app_footer .centered-box button {
+  padding: 10px;
+  color: white;
+  border: 1px solid #0282f9;
+  background-color: #303030;
+}
+
+#app_footer .centered-box button:hover {
+  background-color: #0282f9;
+  cursor: pointer;
+}
+
+#app_footer #footer-list {
+  margin: 27px 0;
+}
+
+#app_footer #footer-list li {
+  display: inline-block;
+  margin: 0 8px;
+}
+
+#app_footer #footer-list a img {
+  width: 27px;
+}
+
+#app_footer .follow-links {
+  display: flex;
+  align-items: center;
+}
+
+#app_footer #followtag {
+  text-decoration: none;
+  color: #0282f9;
+}
+
+#app_footer .footer-banner {
+  background-color: #303030;
+  z-index: 10;
+}
+
+.segnalino {
+  padding: 50px;
+  background-color: orange;
+  color: white;
+  width: 200px;
 }

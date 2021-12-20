@@ -6,9 +6,10 @@
 @endsection -->
 
 @section('content')
-<div class="container-fluid"></div>
-<div class="container-fluid bg-dark d-flex flex-column align-items-center">
-    <div class="container d-flex flex-wrap justify-content-center">
+<div class="container-fluid jumbo"></div>
+<div class="container-fluid py-5 bg-dark d-flex flex-column align-items-center">
+    <div class="container d-flex flex-wrap justify-content-center container-special">
+        <div class='special'>CURRENT SERIES</div>
         @foreach($fumetti_arrey as $card)
             @if($card['series'] == "Action Comics")
                 <a class="card-box" href="{{  route('1')  }}">
