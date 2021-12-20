@@ -11243,6 +11243,12 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   background-color: wheat;
 }
@@ -11284,5 +11290,30 @@ main button {
 }
 
 main button:hover {
+  cursor: pointer;
+}
+
+main .banner {
+  background-color: #0282f9;
+}
+
+main #banner-list {
+  text-decoration: none;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+main #banner-list img {
+  height: 60px;
+  padding: 15px;
+}
+
+main #banner-list li {
+  display: inline-block;
+  margin: 25px 15px;
+}
+
+main #banner-list li:hover {
   cursor: pointer;
 }
