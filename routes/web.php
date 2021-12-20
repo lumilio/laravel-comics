@@ -14,11 +14,9 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-
     $fumetti_arrey = config('(1)data_fumetti')['data'];
     return view('pages.start-page',compact('fumetti_arrey'));
-    ddd('fumetti_arrey');
-
+    /* ddd('fumetti_arrey');  ???*/
 })->name('route_welcome');
 
 
@@ -26,23 +24,17 @@ Route::get('/', function () {
 
 Route::get('/superman', function () {
     return view('pages.page-superman');
-})->name('route_superman');
+})->name('1');
+
+Route::get('/vampire', function () {
+    return view('pages.page-vampire');
+})->name('2');
 
 Route::get('/acquaman', function () {
     return view('pages.page-acquaman');
-})->name('route_acquaman');
-
-Route::get('/vampire', function () {
-    return view('pagespage-vampire');
-})->name('route_vampire');
+})->name('3');
 
 
 
-/* Route::get('/about', function () {
-    $data = [
-        "options"=>[
-            'chi siamo','cosa facciamo','perchè lo facciamo'
-        ]
-    ];
-    return view('about',$data);
-})->name('route_about'); */
+
+

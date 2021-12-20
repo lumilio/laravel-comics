@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>DC COMICS | @yield('page-title','pasta')</title>
+        <title>DC COMICS | @yield('page-title')</title>
         <link href="{{asset('css/app.css')}}" rel="stylesheet">
         <!-- Custom CSS --> @yield('custom-css')
     </head>

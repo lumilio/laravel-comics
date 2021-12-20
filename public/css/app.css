@@ -11247,6 +11247,16 @@ body {
   background-color: wheat;
 }
 
+main .card-box {
+  padding: 0.6rem;
+  text-decoration: none;
+  transition: 0.2s;
+}
+
+main .card-box:hover {
+  background-color: #0282f9;
+}
+
 main .card-box img {
   width: 170px;
   height: 170px;
@@ -11254,4 +11264,25 @@ main .card-box img {
      object-fit: cover;
   -o-object-position: center top;
      object-position: center top;
+}
+
+main .card-box p {
+  width: 160px;
+  margin-top: 8px;
+  margin-bottom: 16px;
+  color: white;
+  font-size: 12px;
+}
+
+main button {
+  margin-top: 30px;
+  margin-bottom: 20px;
+  background-color: #0282f9;
+  color: white;
+  padding: 7px 30px;
+  border: none;
+}
+
+main button:hover {
+  cursor: pointer;
 }
