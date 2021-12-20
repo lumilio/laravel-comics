@@ -11265,6 +11265,23 @@ body {
   /* background-repeat: no-repeat */
 }
 
+#app_header .header1 {
+  background-color: #0282f9;
+}
+
+#app_header .header1 p {
+  background-color: #0282f9;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  margin-left: 80px;
+}
+
+#header-logo {
+  width: 70px;
+  margin: 20px;
+}
+
 /* -------------------- MAIN -------------------- */
 .segnalino {
   padding: 50px;
@@ -11301,7 +11318,7 @@ main .card-box p {
 }
 
 main button {
-  margin-top: 30px;
+  margin-top: 20px;
   margin-bottom: 20px;
   background-color: #0282f9;
   color: white;
@@ -11344,7 +11361,7 @@ main .special {
   background-color: #0282f9;
   padding: 8px 35px;
   color: white;
-  top: -67px;
+  top: -87px;
   left: 80px;
   font: large;
   font-weight: bold;
