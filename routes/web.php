@@ -14,8 +14,15 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('pages.start-page');
+
+    $fumetti_arrey = config('(1)data_fumetti')['data'];
+    return view('pages.start-page',compact('fumetti_arrey'));
+    ddd('fumetti_arrey');
+
 })->name('route_welcome');
+
+
+
 
 Route::get('/superman', function () {
     return view('pages.page-superman');
