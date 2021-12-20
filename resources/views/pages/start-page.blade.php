@@ -7,7 +7,7 @@
 
 @section('content')
 <div class="container-fluid jumbo"></div>
-<div class="container-fluid py-5 bg-dark d-flex flex-column align-items-center">
+<div class="container-fluid  py-5 bg-dark d-flex flex-column align-items-center">
     <div class="container my-4 d-flex flex-wrap justify-content-center container-special">
         <div class='special'>CURRENT SERIES</div>
         @foreach($fumetti_arrey as $card)

@@ -18,7 +18,14 @@ body{
 /* -------------------- HEADER -------------------- */
 
 
-#app_header{}
+#app_header{
+    position: fixed;
+    top: 0;
+    margin: auto;
+    width: 100%;
+    z-index: 100;
+    display:initial;
+}
 
 #app_header .layout-box{
     width: 100%;
@@ -35,6 +42,9 @@ body{
     background-color: $sie-color-2;
 }
 
+
+
+
 #app_header .header1 p{
     background-color: $sie-color-2;
     margin: 0; padding: 0; box-sizing: border-box;
@@ -46,7 +56,13 @@ body{
     margin: 20px;
 }
 
+
+
+
 /* -------------------- MAIN -------------------- */
+
+
+
 
 .segnalino{
     padding: 50px;
@@ -54,7 +70,6 @@ body{
     color:white;
     width: 200px;
 }
-
 main .card-box {
     padding: 0.6rem;
     text-decoration: none;
@@ -126,6 +141,7 @@ main .jumbo{
     height: 400px;
     background-position-y: top;
     background-position-x: center;
+    margin-top: 100px;
     /* background-repeat: no-repeat */
 }
 
@@ -133,8 +149,6 @@ main .jumbo{
 
 /* -------------------- FOOTER -------------------- */
 
-
-#app_footer{}
 
 
 #app_footer .layout-box{
@@ -147,7 +161,6 @@ main .jumbo{
     background-size: cover;
     /* background-repeat: no-repeat */
 }
-
 #app_footer .centered-box{
     width: 1140px;
     display: flex;
@@ -157,11 +170,6 @@ main .jumbo{
 #app_footer .mini-list{
     margin: 30px 70px 62px 0px;
 }
-
-.layout-box-2{
-
-}
-
 #app_footer .layout-box-2 .centered-box {
     justify-content: space-between;
     display: flex;
@@ -219,7 +227,6 @@ main .jumbo{
     text-decoration: none;
     color: $sie-color-2;
 }
-
 #app_footer .footer-banner{
     background-color: #303030; 
     z-index: 10;

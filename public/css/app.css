@@ -11254,6 +11254,15 @@ body {
 }
 
 /* -------------------- HEADER -------------------- */
+#app_header {
+  position: fixed;
+  top: 0;
+  margin: auto;
+  width: 100%;
+  z-index: 100;
+  display: initial;
+}
+
 #app_header .layout-box {
   width: 100%;
   display: flex;
@@ -11376,6 +11385,7 @@ main .jumbo {
   height: 400px;
   background-position-y: top;
   background-position-x: center;
+  margin-top: 100px;
   /* background-repeat: no-repeat */
 }
 
