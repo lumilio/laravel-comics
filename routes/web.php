@@ -16,8 +16,8 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     $fumetti_arrey = config('(1)data_fumetti')['data'];
     $banner_arrey = config('(1)data_fumetti')['data2'];
-    return view('pages.start-page',compact('fumetti_arrey','banner_arrey'));
-    /* ddd('fumetti_arrey');  ???*/
+    /* ddd($fumetti_arrey); */
+    return view('pages.start-page',compact('fumetti_arrey','banner_arrey')); 
 })->name('route_welcome');
 
 

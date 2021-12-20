@@ -1,5 +1,5 @@
 @extends('layouts.app')
-@section('page-title','welcome')
+@section('page-title','home')
 
 <!-- @section('custom-css')
 <link href="{{asset('css/appN.css')}}" rel="stylesheet">

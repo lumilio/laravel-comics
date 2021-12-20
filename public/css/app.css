@@ -11243,6 +11243,8 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+/* @import 'variables/var1'; or
+@use 'variables/var1'; */
 * {
   margin: 0;
   padding: 0;
@@ -11289,6 +11291,10 @@ body {
 #header-logo {
   width: 70px;
   margin: 20px;
+}
+
+#header-list li {
+  display: inline-block;
 }
 
 /* -------------------- MAIN -------------------- */

@@ -1,5 +1,10 @@
 @use 'bootstrap';
 
+//  reminder
+/* @import 'variables/var1'; or
+@use 'variables/var1'; */
+
+
 *{ margin: 0; padding: 0; box-sizing: border-box;}
 
 $sie-color-2: #0282f9;
@@ -42,18 +47,18 @@ body{
     background-color: $sie-color-2;
 }
 
-
-
-
 #app_header .header1 p{
     background-color: $sie-color-2;
     margin: 0; padding: 0; box-sizing: border-box;
     margin-left: 80px;
 }
-
 #header-logo{
     width: 70px;
     margin: 20px;
+}
+
+#header-list li{
+    display: inline-block;
 }
 
 
