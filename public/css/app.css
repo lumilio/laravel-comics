@@ -11266,6 +11266,13 @@ body {
 }
 
 /* -------------------- MAIN -------------------- */
+.segnalino {
+  padding: 50px;
+  background-color: orange;
+  color: white;
+  width: 200px;
+}
+
 main .card-box {
   padding: 0.6rem;
   text-decoration: none;
@@ -11378,6 +11385,12 @@ main .jumbo {
   margin: 30px 70px 62px 0px;
 }
 
+#app_footer .layout-box-2 .centered-box {
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+}
+
 #app_footer .centered-box h3 {
   margin-bottom: 0;
 }
@@ -11407,6 +11420,7 @@ main .jumbo {
 
 #app_footer .centered-box button {
   padding: 10px;
+  height: 45px;
   color: white;
   border: 1px solid #0282f9;
   background-color: #303030;
@@ -11443,11 +11457,5 @@ main .jumbo {
 #app_footer .footer-banner {
   background-color: #303030;
   z-index: 10;
-}
-
-.segnalino {
-  padding: 50px;
-  background-color: orange;
-  color: white;
-  width: 200px;
+  position: relative;
 }

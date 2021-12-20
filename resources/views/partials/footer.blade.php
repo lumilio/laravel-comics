@@ -51,9 +51,12 @@
             <img id='footer-logo' src="../img/dc-logo-bg.png" alt="">
         </div>
     </div>
-    <div class='container-fluid d-flex justify-content-center footer-banner'>
-        <div class="layout-box">
-            <div class="centered-box">
+
+
+
+    <div class='container-fluid banner2 d-flex justify-content-center footer-banner'>
+        <div class="layout-box-2">
+            <div class="centered-box ">
                 <button>SING-UP NOW!</button>
                 <div class="follow-links">
                     <a id='followtag' href="#"><b>FOLLOW US</b></a>
