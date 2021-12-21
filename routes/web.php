@@ -22,18 +22,26 @@ Route::get('/', function () {
 
 
 
+Route::get('/{id}', function ($id) {
+    $fumetti_arrey = config('(1)data_fumetti')['data'];
+    $item_fumetti_arrey = $fumetti_arrey[$id];
+    /* ddd($item_fumetti_arrey); */
+    return view('pages.comic-pages.show',compact('item_fumetti_arrey'));
+})->name('comic');
 
-Route::get('/superman', function () {
-    return view('pages.page-superman');
-})->name('1');
+
+
+
+
+
+
+
 
 Route::get('/vampire', function () {
     return view('pages.page-vampire');
-})->name('2');
+})->name('menu');
 
-Route::get('/acquaman', function () {
-    return view('pages.page-acquaman');
-})->name('3');
+
 
 
 

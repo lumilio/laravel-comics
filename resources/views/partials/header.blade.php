@@ -55,7 +55,7 @@ $Menulist = [
             <img id='header-logo' src="{{asset('../img/dc-logo.png')}}" alt="">
             <ul id='header-list'>
                 @foreach($Menulist as $item)
-                    <li class='mx-3'><a href="{{route($item['href'])}}">{{$item['text']}}</a></li>
+                    <li class='mx-3'><a href="#">{{$item['text']}}</a></li>
                 @endforeach
             </ul>
             <input type="search" placeholder='Search'>
