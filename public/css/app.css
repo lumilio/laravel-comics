@@ -14348,6 +14348,14 @@ body {
   color: #0282f9;
 }
 
+.active li {
+  border-bottom: 5px solid #0282f9;
+}
+
+.active li a {
+  color: #0282f9;
+}
+
 #header-list a {
   text-decoration: none;
   color: black;
@@ -14561,4 +14569,21 @@ main .jumbo {
   background-color: #303030;
   z-index: 10;
   position: relative;
+}
+
+.fluid3 {
+  background-color: #0282f9;
+  z-index: 10;
+  padding-top: 150px;
+  padding-bottom: 50px;
+}
+
+.card-box-show {
+  margin-top: 30px;
+  color: white;
+}
+
+.big-text {
+  width: 50%;
+  padding-left: 70px;
 }

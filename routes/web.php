@@ -24,9 +24,16 @@ Route::get('/', function () {
 
 Route::get('/{id}', function ($id) {
     $fumetti_arrey = config('(1)data_fumetti')['data'];
-    $item_fumetti_arrey = $fumetti_arrey[$id];
-    /* ddd($item_fumetti_arrey); */
-    return view('pages.comic-pages.show',compact('item_fumetti_arrey'));
+
+    if(is_numeric($id) && $id >= 0 && $id < count($fumetti_arrey)){
+        $item_fumetti_arrey = $fumetti_arrey[$id];
+        /* ddd($item_fumetti_arrey); */
+        return view('pages.comic-pages.show',compact('item_fumetti_arrey'));
+    }
+    else{
+        abort(404);
+    }
+
 })->name('comic');
 
 
