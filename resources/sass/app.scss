@@ -1,5 +1,7 @@
 @use 'bootstrap';
 
+@import "node_modules/font-awesome/scss/font-awesome.scss";
+
 //  reminder
 /* @import 'variables/var1'; or
 @use 'variables/var1'; */
@@ -51,7 +53,20 @@ body{
     background-color: $sie-color-2;
     margin: 0; padding: 0; box-sizing: border-box;
     margin-left: 80px;
+    padding: 3px;
+    font-size: small;
 }
+#app_header input{
+    border:none;
+    border-bottom: 3px solid $sie-color-2;
+}
+
+#app_header input::-webkit-input-placeholder { 
+    text-align:right; 
+    position:relative;
+    right:20px;    
+}
+
 #header-logo{
     width: 70px;
     margin: 20px;
@@ -59,10 +74,29 @@ body{
 
 #header-list li{
     display: inline-block;
+    line-height: 100px;
+    border-top: 5px solid white;
+    border-bottom: 5px solid white;
 }
+#header-list li:hover{
+    border-bottom: 5px solid $sie-color-2;
+}
+#header-list li:hover > a{
+    color: $sie-color-2;
+}
+#header-list a{
+    text-decoration: none;
+    color: black;
+    font-size: small;
+}
+#header-list{ margin: 0; padding: 0; box-sizing: border-box;}
 
-
-
+#app_header .fa-search{
+    position: absolute;
+    margin-bottom: 10px;
+    right: 15px;
+    font-size: x-large;
+}
 
 /* -------------------- MAIN -------------------- */
 
