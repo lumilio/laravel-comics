@@ -24,7 +24,6 @@ Route::get('/', function () {
 
 Route::get('/{id}', function ($id) {
     $fumetti_arrey = config('(1)data_fumetti')['data'];
-
     if(is_numeric($id) && $id >= 0 && $id < count($fumetti_arrey)){
         $item_fumetti_arrey = $fumetti_arrey[$id];
         /* ddd($item_fumetti_arrey); */
@@ -33,14 +32,7 @@ Route::get('/{id}', function ($id) {
     else{
         abort(404);
     }
-
 })->name('comic');
-
-
-
-
-
-
 
 
 

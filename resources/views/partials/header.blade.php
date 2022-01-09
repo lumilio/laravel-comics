@@ -52,7 +52,9 @@ $Menulist = [
     </div>
     <div class="container-fluid bg-white header2 d-flex justify-content-center">
         <div class="container position-relative bg-white d-flex align-items-center justify-content-between"">
-            <img id='header-logo' src="{{asset('../img/dc-logo.png')}}" alt="">
+            <a href="{{route('route_welcome')}}">
+                <img id='header-logo' src="{{asset('../img/dc-logo.png')}}" alt="">
+            </a> 
             <ul id='header-list'>
                 @foreach($Menulist as $item)
                     <li class='mx-3'><a href="#">{{$item['text']}}</a></li>
