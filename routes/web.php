@@ -13,6 +13,9 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+
+/* --------------------- rotta per pagina iniziale  */
+
 Route::get('/', function () {
     $fumetti_arrey = config('(1)data_fumetti')['data'];
     $banner_arrey = config('(1)data_fumetti')['data2'];
@@ -21,6 +24,9 @@ Route::get('/', function () {
 })->name('route_welcome');
 
 
+
+
+/* --------------------- rotta per pagine dettaglio singolo fumetto  */
 
 Route::get('/{id}', function ($id) {
     $fumetti_arrey = config('(1)data_fumetti')['data'];
