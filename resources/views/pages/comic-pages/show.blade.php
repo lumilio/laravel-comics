@@ -12,5 +12,4 @@
         <p class='big-text'>{{$item_fumetti_arrey['description']}}</p>
     </div>
 </div>
-
 @endsection

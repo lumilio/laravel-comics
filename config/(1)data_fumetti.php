@@ -221,4 +221,46 @@ return [
         [ 'label'=> 'COMIC SHOP LOCATOR', 'image'=> 'buy-comics-shop-locator.png' ],
         [ 'label'=> 'DC POWER VISA', 'image'=> 'buy-dc-power-visa.svg' ],
     ],
+    'data3' =>[
+        [
+            'testo'=> 'chracaters chracaters chracaters chracaters chracaters chracaters',
+            'text'=> 'CHARACTERS',
+        ],
+        [
+            'testo'=> 'comics comics comics comics comics comics',
+            'text'=> 'COMICS',
+        ],
+        [
+            'testo'=> 'movies movies movies movies movies movies',
+            'text'=> 'MOVIES',
+        ],
+        [
+            'testo'=> 'tv tv tv tv tv tv',
+            'text'=> 'TV',
+        ],
+        [
+            'testo'=> 'games games games games games games',
+            'text'=> 'GAMES',
+        ],
+        [
+            'testo'=> 'collectibles collectibles collectibles collectibles collectibles collectibles',
+            'text'=> 'COLLECTIBLES',
+        ],
+        [
+            'testo'=> 'videos videos videos videos videos videos',
+            'text'=> 'VIDEOS',
+        ],
+        [
+            'testo'=> 'fans fans fans fans fans fans',
+            'text'=> 'FANS',
+        ],
+        [
+            'testo'=> 'news news news news news news',
+            'text'=> 'NEWS',
+        ],
+        [
+            'testo'=> 'shop shop shop shop shop shop',
+            'text'=> 'SHOP',
+        ],
+    ],
 ];

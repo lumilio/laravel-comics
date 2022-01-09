@@ -14270,19 +14270,10 @@ textarea.form-control-lg {
   clip: auto;
 }
 
-/* @import 'variables/var1'; or
-@use 'variables/var1'; */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+.margineextra {
+  margin: 200px 0;
 }
 
-body {
-  font-family: Trebuchet MS, sans-serif;
-}
-
-/* -------------------- HEADER -------------------- */
 #app_header {
   position: fixed;
   top: 0;
@@ -14375,7 +14366,6 @@ body {
   font-size: x-large;
 }
 
-/* -------------------- MAIN -------------------- */
 .segnalino {
   padding: 50px;
   background-color: orange;
@@ -14473,7 +14463,6 @@ main .jumbo {
   /* background-repeat: no-repeat */
 }
 
-/* -------------------- FOOTER -------------------- */
 #app_footer .layout-box {
   width: 100%;
   display: flex;
@@ -14586,4 +14575,14 @@ main .jumbo {
 .big-text {
   width: 50%;
   padding-left: 70px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Trebuchet MS, sans-serif;
 }

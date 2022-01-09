@@ -1,0 +1,11 @@
+@mixin layout-block-1 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+$sie-color-2: #0282f9;
+
+.margineextra{
+    margin: 200px 0;
+}

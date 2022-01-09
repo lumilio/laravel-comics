@@ -1,45 +1,45 @@
 @php
 $Menulist = [
-    [
-        'href'=> '1',
-        'text'=> 'CHARACTERS',
-    ],
-    [
-        'href'=> '1',
-        'text'=> 'COMICS',
-    ],
-    [
-        'href'=> '1',
-        'text'=> 'MOVIES',
-    ],
-    [
-        'href'=> '1',
-        'text'=> 'TV',
-    ],
-    [
-        'href'=> '1',
-        'text'=> 'GAMES',
-    ],
-    [
-        'href'=> '1',
-        'text'=> 'COLLECTIBLES',
-    ],
-    [
-        'href'=> '1',
-        'text'=> 'VIDEOS',
-    ],
-    [
-        'href'=> '1',
-        'text'=> 'FANS',
-    ],
-    [
-        'href'=> '1',
-        'text'=> 'NEWS',
-    ],
-    [
-        'href'=> '1',
-        'text'=> 'SHOP',
-    ],
+        [
+            'testo'=> 'chracaters chracaters chracaters chracaters chracaters chracaters',
+            'text'=> 'CHARACTERS',
+        ],
+        [
+            'testo'=> 'comics comics comics comics comics comics',
+            'text'=> 'COMICS',
+        ],
+        [
+            'testo'=> 'movies movies movies movies movies movies',
+            'text'=> 'MOVIES',
+        ],
+        [
+            'testo'=> 'tv tv tv tv tv tv',
+            'text'=> 'TV',
+        ],
+        [
+            'testo'=> 'games games games games games games',
+            'text'=> 'GAMES',
+        ],
+        [
+            'testo'=> 'collectibles collectibles collectibles collectibles collectibles collectibles',
+            'text'=> 'COLLECTIBLES',
+        ],
+        [
+            'testo'=> 'videos videos videos videos videos videos',
+            'text'=> 'VIDEOS',
+        ],
+        [
+            'testo'=> 'fans fans fans fans fans fans',
+            'text'=> 'FANS',
+        ],
+        [
+            'testo'=> 'news news news news news news',
+            'text'=> 'NEWS',
+        ],
+        [
+            'testo'=> 'shop shop shop shop shop shop',
+            'text'=> 'SHOP',
+        ],
 ]
 @endphp
 
@@ -56,8 +56,8 @@ $Menulist = [
                 <img id='header-logo' src="{{asset('../img/dc-logo.png')}}" alt="">
             </a> 
             <ul id='header-list'>
-                @foreach($Menulist as $item)
-                    <li class='mx-3'><a href="#">{{$item['text']}}</a></li>
+                @foreach($Menulist as $index => $item)
+                    <li class='mx-3'><a href="{{route('menu',['id'=> $index])}}">{{$item['text']}}</a></li>
                 @endforeach
             </ul>
             <input type="search" placeholder='Search'>
