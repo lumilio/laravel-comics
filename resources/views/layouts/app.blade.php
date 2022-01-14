@@ -15,7 +15,7 @@
         @include('partials.header')
         <main id='app_main'>@yield('content')</main>
         @include('partials.footer')
-        <p>x</p>
+        
         <!-- Custom scripts --> @yield('custom-js')
     </body>
 
